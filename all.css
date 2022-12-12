@@ -1,0 +1,57 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body {
+    background-color: #ffffff;
+}
+h1{
+    font-size: 90px;
+    font-family: drink;
+}
+h4{
+    font-size: 40px;
+}
+hr{
+    border: 2px solid black;
+}
+
+/* the primary header and footer used throughout all pages */
+.mainHeader{
+    display: flex;
+    border-bottom: 5px solid black;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(21, 71, 52, 1);
+}
+.mainFooter{
+    display: flex;
+    border-top: 5px solid black;
+    height: 100px;
+    width: 100%;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background-color: rgba(21, 71, 52, 1);
+}
+
+/* fonts */
+@font-face {
+    font-family: drink;
+    src: url("./Fonts/LTDrink-Medium.ttf");
+}
+
+/* page boxes*/
+.box{
+    border-radius: 7px 7px 7px 7px;  
+    border: 7px solid rgba(21, 71, 52, 1);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+}
