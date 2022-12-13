@@ -1,21 +1,3 @@
-/* changes hyperlinks */
-a{
-    color: black;
-    text-decoration: none;
-}
-
-/* makes th background IMG */
-#mainIMG{
-    margin-top: 0%;
-    width: 100%;
-}
-
-/* icon */
-.icon{
-    width: 85px;
-    height: 85px;
-}
-
 /* creates a class to center everything */
 .center{
     text-align: center;
@@ -28,54 +10,77 @@ a{
     font-size: 50px;
 }
 #langH{
-    background-color: green;
-    width: 608px;
-    height: 50px;
-    border-radius: 3px 0px 0px 3px;
-    border: 2px solid black;
-    border-right: 0;
+ position: relative;
+ border: 3px solid black;
+ width: 800px;
+ height: 50px;
+ border-radius: 9px 9px 9px 9px;
 }
 #langH2{
-    background-color: #ffffff;
-    width: 192px;
-    height: 50px;
-    border-radius: 0px 3px 3px 0px;
-    border: 2px solid black;
-    border-left: 0;
+ position: relative;
+ width: 608px;
+ background-color: green;
+ height: 50px;
+ z-index: -1;
 }
 #langC{
-    background-color: green;
-    width: 536px;
-    height: 50px;
-    border-radius: 3px 0px 0px 3px;
-    border: 2px solid black;
-    border-right: 0;
+ position: relative;
+ border: 3px solid black;
+ width: 800px;
+ height: 50px;
+ border-radius: 9px 9px 9px 9px;
 }
 #langC2{
-    background-color: #ffffff;
-    width: 264px;
-    height: 50px;
-    border-radius: 0px 3px 3px 0px;
-    border: 2px solid black;
-    border-left: 0;
+ position: relative;
+ width: 536px;
+ background-color: green;
+ height: 50px;
+ z-index: -1;
 }
 #langJ{
-    background-color: green;
-    width: 352px;
-    height: 50px;
-    border-radius: 3px 0px 0px 3px;
-    border: 2px solid black;
-    border-right: 0;
+ position: relative;
+ border: 3px solid black;
+ width: 800px;
+ height: 50px;
+ border-radius: 9px 9px 9px 9px; 
 }
 #langJ2{
-    background-color: #ffffff;
-    width: 448px;
-    height: 50px;
-    border-radius: 0px 3px 3px 0px;
-    border: 2px solid black;
-    border-left: 0;
+ position: relative;
+ width: 352px;
+ background-color: green;
+ height: 50px;
+ z-index: -1;
 }
 .langText{
     padding-left: 20px;
 }
 
+/* Services Boxes */
+.services{
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px 9px 9px 9px;
+    border: 2px solid black;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+    margin: 10px;
+}
+.services:hover{
+    border: 2px solid orange;
+}
+.services:hover hr{
+    border: 1px solid orange;
+}
+.servicesIcon{
+    color: rgba(21, 71, 52, 1);
+    font-size: 50px;
+}
+.servicesTitle{
+    font-size: 30px;
+}
+.servicesText{
+    padding: 10px;
+}
