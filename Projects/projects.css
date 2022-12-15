@@ -1,0 +1,11 @@
+/* creates a box to hold the project boxes */
+.projects{
+    display: flex;
+}
+
+/* creates a box that holds the projects */
+.projectBox{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
