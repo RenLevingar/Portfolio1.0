@@ -1,15 +1,112 @@
-/* email box */
-.mainContact{
+/* email contact */
+.emails{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.emailContact{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.email1{
+    display: flex;
+    width: 500px;
+    height: 100px;
+    align-items: center;
+}
+.email2{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+#email3{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+.sendBTN{
+    display: flex;
+    height: 50px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(21, 71, 52, 1);
+    color: white;
+}
+
+/* changes all textareas */
+textarea{
+    font-size: 70px;
+}
+
+/* media */
+.mediaIcons{
+    width: 200px;
+    height: 200px;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.contactBox{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 200px;
 }
-.person{
-    width: 100px;
-}
-.email{
-    width: 100px;
+
+/* changes screen size */
+@media screen and (max-width: 800px){
+    .emails{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .emailContact{
+        display: flex;
+        margin-top: 25px;
+        flex-direction: row;
+    }
+    .email1{
+        display: flex;
+        width: 190px;
+        height: 60px;
+        align-items: center;
+    }
+    .email2{
+        display: flex;
+        height: 60px;
+        align-items: center;
+    }
+    #email3{
+        display: flex;
+        height: 200px;
+        align-items: center;
+    }
+    .sendBTN{
+        display: flex;
+        height: 20px;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(21, 71, 52, 1);
+        color: white;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    .mediaIcons{
+        width: 150px;
+        height: 150px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        justify-content: space-around;
+    }
 }

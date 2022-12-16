@@ -75,10 +75,10 @@ body{
     margin: 10px;
 }
 .services:hover{
-    border: 2px solid orange;
+    border: 2px solid red;
 }
 .services:hover hr{
-    border: 1px solid orange;
+    border: 1px solid red;
 }
 .servicesIcon{
     color: rgba(21, 71, 52, 1);
@@ -189,10 +189,10 @@ body{
         margin: 0px;
     }
     .services:hover{
-        border: 2px solid orange;
+        border: 2px solid red;
     }
     .services:hover hr{
-        border: 1px solid orange;
+        border: 1px solid red;
     }
     .servicesIcon{
         color: rgba(21, 71, 52, 1);
