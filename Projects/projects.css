@@ -8,6 +8,9 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.projects a{
+    color: rgb(255, 255, 255);
+}
 .projectBox{
     display: flex;
     position: relative;
@@ -16,12 +19,94 @@
     border: 5px solid rgba(21, 71, 52, 1);
     align-items: center;
     justify-content: center;
+    background-color: rgb(54, 54, 54);
 }
 .projectRow{
     gap: 50px;
     display: flex;
     flex-direction: row;
 }
+
+/* creates backgrounds */
+
+.FBLABG{
+    background-image: url("../Images/grill.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.FBLABG:hover{
+    filter: grayscale(80%);
+}
+.FBLABG:hover p{
+    color: white;
+    background-color: black;
+}
+
+.RPSBG{
+    background-image: url("../Images/RPS.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.RPSBG:hover{
+    filter: grayscale(80%);
+}
+.RPSBG:hover p{
+    color: white;
+    background-color: black;
+}
+
+.TTTBG{
+    background-image: url("../Images/TTT.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.TTTBG:hover{
+    filter: grayscale(80%);
+}
+.TTTBG:hover p{
+    color: white;
+    background-color: black;
+}
+
+.eastBG{
+    background-image: url("../Images/east.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.eastBG:hover{
+    filter: grayscale(80%);
+}
+.eastBG:hover p{
+    color: white;
+    background-color: black;
+}
+
+.calcBG{
+    background-image: url("../Images/calc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.calcBG:hover{
+    filter: grayscale(80%);
+}
+.calcBG:hover p{
+    color: white;
+    background-color: black;
+}
+
+.trBG{
+    background-image: url("../Images/troop.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.trBG:hover{
+    filter: grayscale(80%);
+}
+.trBG:hover p{
+    color: white;
+    background-color: black;
+}
+
 
 /* texts */
 .FBLA{
@@ -58,21 +143,27 @@
 /* on hovers */
 .webFBLA:hover .FBLA{
     display: block;
+    font-family: notoBold;
 }
 .webRPS:hover .RPS{
     display: block;
+    font-family: notoBold;
 }
 .webTTT:hover .TTT{
     display: block;
+    font-family: notoBold;
 }
 .webEastMEC:hover .eastMEC{
     display: block;
+    font-family: notoBold;
 }
 .webCalc:hover .calc{
     display: block;
+    font-family: notoBold;
 }
 .web747:hover .troop{
     display: block;
+    font-family: notoBold;
 }
 
 /* changes the screen sizes */
