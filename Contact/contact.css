@@ -59,7 +59,7 @@ textarea{
 }
 
 /* changes screen size */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .emails{
         display: flex;
         flex-wrap: wrap;
@@ -107,6 +107,59 @@ textarea{
         display: flex;
         flex-direction: row;
         font-size: 15px;
+        justify-content: space-around;
+    }
+}
+
+/* changes screen size */
+@media screen and (max-width: 500px){
+    .emails{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+    .emailContact{
+        display: flex;
+        margin-top: 15px;
+        flex-direction: row;
+    }
+    .email1{
+        display: flex;
+        width: 100px;
+        height: 30px;
+        align-items: center;
+    }
+    .email2{
+        display: flex;
+        height: 30px;
+        align-items: center;
+    }
+    #email3{
+        display: flex;
+        height: 100px;
+        align-items: center;
+    }
+    .sendBTN{
+        display: flex;
+        height: 10px;
+        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(21, 71, 52, 1);
+        color: white;
+    }
+    textarea{
+        font-size: 10px;
+    }
+    .mediaIcons{
+        width: 75px;
+        height: 75px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
         justify-content: space-around;
     }
 }

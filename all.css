@@ -7,6 +7,7 @@
 }
 body {
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 h1{
     font-size: 70px;
@@ -22,11 +23,12 @@ hr{
     border: 1px solid black;
 }
 a{
-    color: black;
+    color: rgb(209, 209, 209);
     text-decoration: none;
+    font-family: noto;
 }
 a:hover{
-    color: green;
+    font-family: notoBold;
 }
 input{
     font-size: 30px;
@@ -42,7 +44,12 @@ input{
     font-size: 20px;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgba(21, 71, 52, 1);
+    background-color: rgb(21, 71, 52);
+    /* position: sticky;
+    sticky-content:top; */
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
 .mainFooter{
     display: flex;
@@ -54,6 +61,7 @@ input{
     align-items: center;
     background-color: rgba(21, 71, 52, 1);
     padding-bottom: 10px;
+    color: #ffffff;
 }
 .sticky {
     position: fixed;
@@ -106,6 +114,51 @@ input{
 }
 .info{
     font-size: 10px;
+}
+
+@media screen and (max-width: 500px){
+    .mainHeader{
+        display: flex;
+        border-bottom: 2px solid black;
+        height: 40px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 5px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(21, 71, 52, 1);
+    }
+    .mainFooter{
+        display: flex;
+        border-top: 5px solid black;
+        height: auto;
+        width: 100%;
+        font-size: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(21, 71, 52, 1);
+        padding-bottom: 5px;
+    }
+    .icon{
+        position: relative;
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .box{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px; 
+    }
 }
 
 @media screen and (max-width: 800px){

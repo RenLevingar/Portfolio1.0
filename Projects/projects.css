@@ -192,3 +192,28 @@
         flex-direction: column;
     }
 }
+@media screen and (max-width:500px){
+    .projects{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .projectBox{
+        display: flex;
+        position: relative;
+        width: 275px;
+        height: 275px;
+        border: 5px solid rgba(21, 71, 52, 1);
+        align-items: center;
+        justify-content: center;
+    }
+    .projectRow{
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+}
